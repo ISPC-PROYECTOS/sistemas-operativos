@@ -34,4 +34,7 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
     ./main_toolkit.sh
     ```
 
-2. **Seleccionar la opción "Gestión de procesos" para acceder al menú de procesos**.
+2. **Seleccionar la opción**:
+En el menú principal se podrá ver en el encabezado, el título y usuario que ejecuta el programa.
+Luego se despliega un menú con los distintos gestores que se utilizarán a lo largo de las evidencias(Por ahora solo implementado Gestor de Procesos), y la opción de cerrar y salir.
+
