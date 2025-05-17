@@ -38,3 +38,13 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
 En el menú principal se podrá ver en el encabezado, el título y usuario que ejecuta el programa.
 Luego se despliega un menú con los distintos gestores que se utilizarán a lo largo de las evidencias(Por ahora solo implementado Gestor de Procesos), y la opción de cerrar y salir.
 
+3.** Menu Gestión procesos**:
+
+3.1 ** Función para mostrar los procesos**:
+
+3.2 ** Función de información detallada por PID**:
+
+3.3 ** Funcion para envio señal a un PID**:
+
+
+
