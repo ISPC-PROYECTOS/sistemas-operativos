@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Función para mostrar el encabezado ya que se utilizará en los distintos menús
+# Función para mostrar el encabezado ya que se utilizará en cada menú
 mostrar_encabezado() {
     clear
     echo "=============================================="
