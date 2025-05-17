@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Función para mostrar el encabezado ya que se utilizará en los distintos menúes
-
+# Función para mostrar el encabezado ya que se utilizará en los distintos menús
 mostrar_encabezado() {
     clear
     echo "=============================================="
@@ -13,10 +12,14 @@ mostrar_encabezado() {
     echo
 }
 
+# Función para mostrar mensaje de opción inválida y pausar para que se lea el mensaje
 mostrar_opcion_invalida() {
     echo "Opción inválida. Por favor, intente nuevamente."
     echo
+    read -n 1 -s -r -p "Presione cualquier tecla para volver al menú..."
+    echo
 }
+
 # Función para mostrar el menú principal
 mostrar_menu_principal() {
     echo "MENÚ PRINCIPAL:"
@@ -45,8 +48,8 @@ while true; do
             mostrar_encabezado
             echo "Funcionalidad aún no implementada."
             echo
-            echo "Presione ENTER para continuar..."
-            read
+            read -n 1 -s -r -p "Presione cualquier tecla para volver al menú..."
+            echo
             ;;
         0)
             clear
@@ -57,7 +60,6 @@ while true; do
         *)
             mostrar_encabezado
             mostrar_opcion_invalida
-            read
             ;;
     esac
 done
