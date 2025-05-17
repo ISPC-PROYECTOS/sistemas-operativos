@@ -16,7 +16,7 @@ mostrar_encabezado() {
 mostrar_opcion_invalida() {
     echo "Opción inválida. Por favor, intente nuevamente."
     echo
-    read -r -p "Presione cualquier tecla para volver al menú..." dummy_var
+    read -r -p "Presione ENTER para volver al menú..." dummy_var
     echo
 }
 
@@ -48,7 +48,7 @@ while true; do
             mostrar_encabezado
             echo "Funcionalidad aún no implementada."
             echo
-            read -r -p "Presione cualquier tecla para volver al menú..." dummy_var
+            read -r -p "Presione ENTER para volver al menú..." dummy_var
             echo
             ;;
         0)
