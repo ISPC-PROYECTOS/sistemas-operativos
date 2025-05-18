@@ -41,6 +41,7 @@ Luego se despliega un menú con los distintos gestores que se utilizarán a lo l
 3.** Menu Gestión procesos**:
 
 3.1 ** Función para mostrar los procesos**:
+
 Muestra los procesos en ejecución ordenados por uso de CPU de mayor a menor.  El script solicita al sistema la lista completa de procesos y la ordena según el porcentaje de uso de CPU.
 
 Luego, muestra sólo los primeros 10 procesos para facilitar la lectura y detectar rápidamente cuáles están consumiendo más recursos.
