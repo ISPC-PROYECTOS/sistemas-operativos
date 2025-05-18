@@ -45,6 +45,9 @@ Luego se despliega un menú con los distintos gestores que se utilizarán a lo l
 3.2 ** Función de información detallada por PID**:
 
 3.3 ** Funcion para envio señal a un PID**:
+Solicita que el usuario ingrese el PID del proceso al que se le quiere enviar una señal. 
+Luego solicita que ingrese el número de señal que quiere enviar. 
+Por último pide la confirmación del pedido. Si se confirma con "s" o "S", ejecuta la señal devolviendo mensaje si se llevó a cabo la acción o no, en cualquier otro caso se cancela la operación.
 
 
 
