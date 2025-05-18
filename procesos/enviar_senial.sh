@@ -9,5 +9,15 @@ enviar_senal_pid() {
 
     echo "¿Está seguro de que desea enviar la señal $senal al proceso con PID $pid? (s/n)"
     read confirmacion
+    
+    if [[ "$confirmacion" == "s" || "$confirmacion" == "S" ]]; then
+                kill -s "$senal" "$pid"
+        if [[ $? -eq 0 ]]; then
+            echo "Señal $senal enviada correctamente al proceso $pid."
+        else
+            echo "Error al enviar la señal. Verifique el PID y la señal."
+        fi
+    else
+        echo "Operación cancelada."
+    fi
 }
-# agregar el if con mensajes de exito/cancelacion
