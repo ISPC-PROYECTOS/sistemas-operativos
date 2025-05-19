@@ -3,6 +3,7 @@
 # Función para mostrar el encabezado ya que se utilizará en cada menú
 mostrar_encabezado() {
     clear
+    echo
     echo "=============================================="
     echo "     TOOLKIT DE ADMINISTRACIÓN DE SISTEMA"
     echo "=============================================="
