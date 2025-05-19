@@ -23,3 +23,4 @@ enviar_senal_pid() {
     fi
     exit 0
 }
+enviar_senal_pid()
