@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 enviar_senal_pid() {
     echo"Enviar señales a procesos activos en el sistema."
