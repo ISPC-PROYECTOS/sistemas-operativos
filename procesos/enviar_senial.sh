@@ -1,7 +1,7 @@
 #!/bin/bash
 
 enviar_senal_pid() {
-    echo"Enviar señales a procesos activos en el sistema."
+    echo "Enviar señales a procesos activos en el sistema."
     echo "Ingrese el PID del proceso al que desea enviar una señal:"
     read pid
     echo "Ingrese la señal que desea enviar (ejemplo:15 (SIGTERM), 9 (SIGKILL),  STOP (SIGSTOP), CONT (SIGCONT)):"
@@ -23,4 +23,5 @@ enviar_senal_pid() {
     fi
     exit 0
 }
-enviar_senal_pid()
+
+enviar_senal_pid
