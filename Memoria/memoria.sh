@@ -12,12 +12,12 @@ while true; do
     case $opcion in
         1) 
             echo "=============================================="
-            ./memoria/ver_uso_memoria.sh
+            ./Memoria/ver_uso_memoria.sh
             echo "=============================================="
             ;;
         2) 
             echo "=============================================="
-            ./disco/lista_masmemoria.sh
+            ./Memoria/lista_masmemoria.sh
             echo "=============================================="
             ;;
         3) 
