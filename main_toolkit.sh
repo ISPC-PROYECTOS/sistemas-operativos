@@ -25,8 +25,8 @@ mostrar_opcion_invalida() {
 mostrar_menu_principal() {
     echo "MENÚ PRINCIPAL:"
     echo "1. Gestión de Procesos"
-    echo "2. [No implementado - Evidencia 3] Gestión de Memoria"
-    echo "3. [No implementado - Evidencia 3] Gestión de Disco"
+    echo "2. Gestión de Memoria"
+    echo "3. Gestión de Disco"
     echo "4. [No implementado - Proyecto Final] Gestión de Usuarios"
     echo "5. [No implementado - Proyecto Final] Gestión de Seguridad"
     echo "0. Salir"
@@ -45,7 +45,15 @@ while true; do
             # Llamada al script de gestión de procesos
             ./procesos/procesos.sh
             ;;
-        2|3|4|5)
+        2)
+            # Llamada al script de gestión de procesos
+            ./Memoria/memoria.sh
+            ;;
+        3)
+            # Llamada al script de gestión de procesos
+            ./Disco/disco.sh
+            ;;
+        4|5)
             mostrar_encabezado
             echo "Funcionalidad aún no implementada."
             echo
