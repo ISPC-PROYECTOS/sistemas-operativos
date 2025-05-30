@@ -13,17 +13,17 @@ while true; do
     case $opcion in
         1) 
             echo "=============================================="
-            ./disco/ver_espacio.sh
+            ./Disco/ver_espacio.sh
             echo "=============================================="
             ;;
         2) 
             echo "=============================================="
-            ./disco/ver_espacio_archivo.sh
+            ./Disco/ver_espacio_archivo.sh
             echo "=============================================="
             ;;
         3) 
             echo "=============================================="
-            ./disco/lista_permisos.sh
+            ./Disco/lista_permisos.sh
             echo "=============================================="
             ;;
         4) 
