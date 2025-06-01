@@ -7,7 +7,7 @@ while true; do
     echo "=============================================="
     echo "1. Ver uso de memoria RAM y SWAP"
     echo "2. Ver procesos que más memoria consumen"
-    echo "4. Salir"
+    echo "3. Salir"
     read -p "Seleccione una opción: " opcion
 
     case $opcion in
