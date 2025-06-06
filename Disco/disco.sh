@@ -7,7 +7,7 @@ while true; do
     echo "=============================================="
     echo "1. Ver espacio en disco"
     echo "2. Consultar uso de disco por directorio/archivo"
-    echo "3. consultar permisos de un directorio/archivo"
+    echo "3. Consultar permisos de un directorio/archivo"
     echo "4. Salir"
     read -p "Seleccione una opción: " opcion
 
