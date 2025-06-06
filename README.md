@@ -60,14 +60,21 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
     Por último pide la confirmación del pedido. Si se confirma con "s" o "S", ejecuta la señal devolviendo mensaje si se llevó a cabo la acción o no, en cualquier otro caso se cancela la operación.
 
 4.  **Menu gestión de memoria**
-    4.1 **Función de Ver uso de memoria Ram y swap**
+
+        4.1 **Función de Ver uso de memoria Ram y swap**
+
     Muestra la información de memoria total, utilizada, y libre, a traves del comando free -h. Se actualiza cada 2 segundos con la nueva información para un mejor seguimiento.
-    4.2 **Función de ver procesos que consumen más memoria**
+
+        4.2 **Función de ver procesos que consumen más memoria**
 
 5.  **Menu de gestión de disco**
-    5.1 **Ver espacio de disco**
-    Muestra el tamaño total, usado y disponible, de los discos y carpetas montados al sistema de archivos. Utiliza el comando df -h para mostrar los datos de manera más legible.
-    5.2 **Ver uso de disco de un archivo o carpeta**
 
-    5.3 **Ver permisos de un archivo o carpeta**
-    Solicita la ruta del archivo o carpeta, y muestra el contenido de directorios en formato largo, con información detallada de permisos, el número de enlaces que apuntan al archivo, el propietario, el grupo, el tamaño, fecha y hora de modificación, y por último el nombre del archivo o directorio. Los permisos son mostrados como una cadena de caracteres que indica los permisos de lectura (r), escritura (w) y ejecución (x) para el propietario, el grupo y el resto de usuarios. 
+        5.1 **Ver espacio de disco**
+
+    Muestra el tamaño total, usado y disponible, de los discos y carpetas montados al sistema de archivos. Utiliza el comando df -h para mostrar los datos de manera más legible.
+
+        5.2 **Ver uso de disco de un archivo o carpeta**
+
+        5.3 **Ver permisos de un archivo o carpeta**
+
+    Solicita la ruta del archivo o carpeta, y muestra el contenido de directorios en formato largo, con información detallada de permisos, el número de enlaces que apuntan al archivo, el propietario, el grupo, el tamaño, fecha y hora de modificación, y por último el nombre del archivo o directorio. Los permisos son mostrados como una cadena de caracteres que indica los permisos de lectura (r), escritura (w) y ejecución (x) para el propietario, el grupo y el resto de usuarios.
