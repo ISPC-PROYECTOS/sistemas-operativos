@@ -66,7 +66,8 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
 
 5.  **Menu de gestión de disco**
     5.1 **Ver espacio de disco**
-
+    Muestra el tamaño total, usado y disponible, de los discos y carpetas montados al sistema de archivos. Utiliza el comando df -h para mostrar los datos de manera más legible.
     5.2 **Ver uso de disco de un archivo o carpeta**
 
     5.3 **Ver permisos de un archivo o carpeta**
+    Solicita la ruta del archivo o carpeta, y muestra el contenido de directorios en formato largo, con información detallada de permisos, el número de enlaces que apuntan al archivo, el propietario, el grupo, el tamaño, fecha y hora de modificación, y por último el nombre del archivo o directorio. Los permisos son mostrados como una cadena de caracteres que indica los permisos de lectura (r), escritura (w) y ejecución (x) para el propietario, el grupo y el resto de usuarios. 
