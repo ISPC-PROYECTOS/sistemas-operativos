@@ -84,8 +84,8 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
     Muestra el tamaño total, usado y disponible, de los discos y carpetas montados al sistema de archivos. Utiliza el comando df -h para mostrar los datos de manera más legible.
 
         5.2 **Ver uso de disco de un archivo o carpeta**
-    Muestra un menu de dos opciones: 1)Solicita al usuario la ruta del archivo o del directorio, para mostrar el espacio ocupado por el mismo. 2)ofrece la opción del volver al menu anterior. 
-    Si el usuario elige opcion 1, se le solicita que ingrese la ruta. La misma sera verificada, si es correcta se mostrara la información del espacio ocupado en disco, si la ruta es erronea, imprime un mensaje de error, y vuelve al menu de opciones local.
+    Muestra un menú de dos opciones: 1)Solicita al usuario la ruta del archivo o del directorio, para mostrar el espacio ocupado por el mismo. 2)Ofrece la opción del volver al menú anterior. 
+    Si el usuario elige opción 1, se le solicita que ingrese la ruta. La misma será verificada (if[ -e "$ruta"]), si es correcta se mostrará la información del espacio ocupado en disco (du -sh "$ruta"), si la ruta es erronea, imprime un mensaje de error, y vuelve al menu de opciones local.
     Futuras mejoras: se evalua adicionar una tercera opción, que le permita al usuario buscar la ruta que desea ingresar.
 
 
