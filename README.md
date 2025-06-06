@@ -13,7 +13,7 @@ Integrantes del grupo:
 
 Este toolkit es un conjunto de herramientas para la gestión de procesos en sistemas Linux. Proporciona un menú interactivo desde el cual los usuarios pueden realizar diversas operaciones relacionadas con los procesos del sistema.
 
-## Archivos principales evidencia 2
+## Archivos principales
 
 - `main_toolkit.sh`: Script principal que muestra el menú principal y permite acceder a las funcionalidades implementadas.
 -
