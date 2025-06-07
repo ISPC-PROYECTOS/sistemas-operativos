@@ -76,8 +76,9 @@ Este toolkit es un conjunto de herramientas para la gestión de procesos en sist
     Muestra la información de memoria total, utilizada, y libre, a traves del comando free -h. Se actualiza cada 2 segundos con la nueva información para un mejor seguimiento.
 
         4.2 **Función de ver procesos que consumen más memoria**
-
-5.  **Menu de gestión de disco**
+    La función muestra los 10 procesos que más memoria consumen en el sistema. Primero imprime un mensaje informativo y una línea separadora para mayor claridad. Luego usa ps aux --sort=-%mem | head -n 11 para listar los procesos ordenados por uso de memoria
+    
+6.  **Menu de gestión de disco**
 
         5.1 **Ver espacio de disco**
 
